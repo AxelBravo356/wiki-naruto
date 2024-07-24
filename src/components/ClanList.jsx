@@ -14,7 +14,7 @@ const ClanList = () => {
   useEffect(() => {
     async function loadClans(page) {
       const res = await GetAllClan(page + 1);
-      console.log(res.data);
+      // console.log(res.data);
       setClans(res.data.clans); // Ajusta según la estructura de res.data
       setPageCount(Math.ceil(res.data.totalClans / clansPerPage)); // Ajusta según el nombre correcto del total
     }
@@ -32,7 +32,7 @@ const ClanList = () => {
           <div
             key={clan.id}
             className="bg-zinc-800 p-3 hover:bg-zinc-700 hover:cursor-pointer rounded-lg"
-            onClick={() => navigate(`/clan-detail/${clan.id}`)}
+            onClick={() => navigate(`/wiki-naruto/clan-detail/${clan.id}`)}
           >
             <h1 className="font-bold uppercase mb-2">{clan.name}</h1>
           </div>

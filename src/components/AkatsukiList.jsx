@@ -13,7 +13,7 @@ export function AkatsukiList() {
   useEffect(() => {
     async function loadCharacters(page) {
       const res = await GetAllAkatsuki(page + 1);
-      console.log(res.data.akatsuki);
+      // console.log(res.data.akatsuki);
       setCharacters(res.data.akatsuki);
       setPageCount(Math.ceil(res.data.totalMembers / characterPerPage));
     }

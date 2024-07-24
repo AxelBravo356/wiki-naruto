@@ -13,7 +13,7 @@ export function ClanDetail() {
         try {
           const res = await GetClanById(id);
           setCharacters(res.data.characters);
-          console.log("personajes", res.data.characters);
+          // console.log("personajes", res.data.characters);
         } catch (error) {
           console.error("Error fetching character details:", error);
           setError("Error fetching character details");
