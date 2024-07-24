@@ -32,7 +32,7 @@ const ClanList = () => {
           <div
             key={clan.id}
             className="bg-zinc-800 p-3 hover:bg-zinc-700 hover:cursor-pointer rounded-lg"
-            onClick={() => navigate(`/wiki-naruto/clan-detail/${clan.id}`)}
+            onClick={() => navigate(`/clan-detail/${clan.id}`)}
           >
             <h1 className="font-bold uppercase mb-2">{clan.name}</h1>
           </div>

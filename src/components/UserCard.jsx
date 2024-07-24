@@ -13,7 +13,7 @@ export function UserCard({ character }) {
   return (
     <div
       className="bg-zinc-800 p-3 hover:bg-zinc-700 hover:cursor-pointer rounded-lg"
-      onClick={() => navigate(`/wiki-naruto/character/${character.id}`)}
+      onClick={() => navigate(`/character/${character.id}`)}
       // onClick={handleClick}
     >
       <img

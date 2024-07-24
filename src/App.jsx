@@ -11,15 +11,12 @@ function App() {
       <div className="container mx-auto">
         <Navigation />
         <Routes>
-          <Route
-            path="/wiki-naruto"
-            element={<Navigate to="/wiki-naruto/characters" />}
-          />
-          <Route path="/wiki-naruto/characters" element={<CharactersPage />} />
-          <Route path="/wiki-naruto/character/:id" element={<UserDetail />} />
-          <Route path="/wiki-naruto/clan" element={<ClanPage />} />
-          <Route path="/wiki-naruto/clan-detail/:id" element={<ClanDetail />} />
-          <Route path="/wiki-naruto/akatsuki" element={<AkatsukiPage />} />
+          <Route path="/wiki-naruto" element={<Navigate to="/characters" />} />
+          <Route path="/characters" element={<CharactersPage />} />
+          <Route path="/character/:id" element={<UserDetail />} />
+          <Route path="/clan" element={<ClanPage />} />
+          <Route path="/clan-detail/:id" element={<ClanDetail />} />
+          <Route path="/akatsuki" element={<AkatsukiPage />} />
         </Routes>
       </div>
     </BrowserRouter>
