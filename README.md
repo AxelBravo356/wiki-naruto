@@ -1,8 +1,9 @@
-# React + Vite
+# Wiki - Naruto
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+Este proyecto fue desarrollado para practicar mis conocimientos y habilidades en Desarrollo Web ( FrontEnd - BackEnd ).
 
-Currently, two official plugins are available:
+- Para el frontend ocupé a librería de JavaScript: React Js y Tailwind CSS.
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+- Para el backend ocupé el propio JavaScript, ya que al momento de hacer las peticiones a la API, ocupé Axios, una librería de javascript que puede ejecutarse en el navegador y nos permite hacer sencillas operaciones HTTP.
+
+- Los datos fueron extraidos de la API https://narutodb.xyz/ 
